@@ -63,8 +63,8 @@ Une analyse de risques et une SoA ne suffisent pas à faire un SMSI : la norme e
 | 4.3, 4.4 | Domaine d'application, système de management | [01-contexte.md](smsi/01-contexte.md) |
 | 5.1, 5.3 | Engagement de la direction, rôles (RACI) | [02-leadership.md](smsi/02-leadership.md) |
 | 5.2 | Politique | [PSSI](livrables/PSSI_Orsea_Banque.pdf) |
-| 6.1.2, 8.2 | Appréciation des risques | Analyse EBIOS RM (voir plus haut) |
-| 6.1.3, 8.3 | Traitement des risques, SoA | [SoA](livrables/SoA_ISO27001_Orsea_Banque.xlsx), [plan de traitement](livrables/Plan_de_traitement_Orsea_Banque.xlsx) |
+| 6.1.2, 8.2 | Appréciation des risques | Analyse EBIOS RM : [ateliers 1 à 4](livrables/) |
+| 6.1.3, 8.3 | Traitement des risques, SoA | [atelier 5](livrables/EBIOS_Atelier5_Traitement_des_risques.xlsx), [SoA](livrables/SoA_ISO27001_Orsea_Banque.xlsx), [plan de traitement](livrables/Plan_de_traitement_Orsea_Banque.xlsx) |
 | 6.2, 6.3 | Objectifs, planification des changements | [03-objectifs.md](smsi/03-objectifs.md) |
 | 7.1 à 7.5 | Ressources, compétences, sensibilisation, communication, documents | [04-support.md](smsi/04-support.md) |
 | 9.1 | Indicateurs | [05-indicateurs.md](smsi/05-indicateurs.md) |
@@ -92,6 +92,8 @@ Le pré-audit a relevé 6 non-conformités, dont 2 majeures : les risques résid
 | Atelier 1 : événements redoutés | [EBIOS_Atelier1_Evenements_redoutes.xlsx](livrables/EBIOS_Atelier1_Evenements_redoutes.xlsx) |
 | Atelier 2 : sources de risque | [EBIOS_Atelier2_SR_OV.xlsx](livrables/EBIOS_Atelier2_SR_OV.xlsx) |
 | Atelier 3 : écosystème | [EBIOS_Atelier3_Ecosysteme.xlsx](livrables/EBIOS_Atelier3_Ecosysteme.xlsx) |
+| Atelier 4 : scénarios opérationnels et actions élémentaires | [EBIOS_Atelier4_Scenarios_operationnels.xlsx](livrables/EBIOS_Atelier4_Scenarios_operationnels.xlsx) |
+| Atelier 5 : traitement des risques et risque résiduel | [EBIOS_Atelier5_Traitement_des_risques.xlsx](livrables/EBIOS_Atelier5_Traitement_des_risques.xlsx) |
 
 ---
 
