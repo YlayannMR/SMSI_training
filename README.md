@@ -1,6 +1,6 @@
 # Orséa Banque : SMSI ISO 27001 et analyse de risques EBIOS RM
 
-Projet GRC mené de A à Z sur une néobanque fictive, Orséa Banque : analyse de risques, traitement, déclaration d'applicabilité ISO 27001, politique de sécurité et présentation au comité exécutif.
+Projet GRC mené de A à Z sur une néobanque fictive, Orséa Banque : analyse de risques, traitement, déclaration d'applicabilité ISO 27001, politique de sécurité, présentation au comité exécutif, et l'ensemble des documents du système de management (clauses 4 à 10).
 
 Outil : [CISO Assistant](https://intuitem.com/ciso-assistant/) (édition communautaire, installé en local avec Docker).
 Référentiels : ISO/IEC 27001:2022, EBIOS Risk Manager (ANSSI), DORA, RGPD.
@@ -52,6 +52,27 @@ J'ai évalué les 93 contrôles de l'Annexe A d'ISO 27001:2022 dans une déclara
 23 mesures, chacune avec un responsable, une priorité, une échéance et un coût estimé (environ 805 k€ la première année, chiffre fictif). Ensuite, une politique de sécurité (PSSI) en 15 sections et une présentation de 8 slides pour le comité exécutif, qui se termine sur les quatre décisions demandées.
 
 ![Les mesures avec leur priorité et leur échéance](images/06-mesures.png)
+
+## Le système de management (clauses 4 à 10)
+
+Une analyse de risques et une SoA ne suffisent pas à faire un SMSI : la norme exige aussi tout le système de management autour. Chaque clause a son document dans le dossier [smsi/](smsi/).
+
+| Clause | Exigence | Document |
+|---|---|---|
+| 4.1, 4.2 | Enjeux, parties intéressées | [01-contexte.md](smsi/01-contexte.md) |
+| 4.3, 4.4 | Domaine d'application, système de management | [01-contexte.md](smsi/01-contexte.md) |
+| 5.1, 5.3 | Engagement de la direction, rôles (RACI) | [02-leadership.md](smsi/02-leadership.md) |
+| 5.2 | Politique | [PSSI](livrables/PSSI_Orsea_Banque.pdf) |
+| 6.1.2, 8.2 | Appréciation des risques | Analyse EBIOS RM (voir plus haut) |
+| 6.1.3, 8.3 | Traitement des risques, SoA | [SoA](livrables/SoA_ISO27001_Orsea_Banque.xlsx), [plan de traitement](livrables/Plan_de_traitement_Orsea_Banque.xlsx) |
+| 6.2, 6.3 | Objectifs, planification des changements | [03-objectifs.md](smsi/03-objectifs.md) |
+| 7.1 à 7.5 | Ressources, compétences, sensibilisation, communication, documents | [04-support.md](smsi/04-support.md) |
+| 9.1 | Indicateurs | [05-indicateurs.md](smsi/05-indicateurs.md) |
+| 9.2 | Audit interne et pré-audit | [06-audit-interne.md](smsi/06-audit-interne.md) |
+| 9.3 | Revue de direction | [07-revue-de-direction.md](smsi/07-revue-de-direction.md) |
+| 10.1, 10.2 | Amélioration, non-conformités | [08-amelioration.md](smsi/08-amelioration.md) |
+
+Le pré-audit a relevé 6 non-conformités, dont 2 majeures : les risques résiduels n'étaient pas acceptés formellement, et les contrats des prestataires critiques ne contenaient pas les clauses exigées par DORA. Elles sont suivies jusqu'à leur levée dans le registre des actions correctives.
 
 ## Ce que je ferais différemment
 
